@@ -1,0 +1,45 @@
+:root {
+  --primary-soft: #4b9fbf;
+  --bg-soft: #f3f7fb;
+}
+
+body {
+  background-color: var(--bg-soft);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.app-header {
+  background-color: var(--primary-soft);
+  color: #fff;
+}
+
+.app-header h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.card {
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+}
+
+.question-card {
+  border-left: 4px solid var(--primary-soft);
+}
+
+.badge-step {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.btn-primary {
+  background-color: var(--primary-soft);
+  border-color: var(--primary-soft);
+}
+
+.btn-primary:hover {
+  background-color: #3c829c;
+  border-color: #3c829c;
+}
